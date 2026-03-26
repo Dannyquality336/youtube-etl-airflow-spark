@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+data/
+logs/
+
+.DS_Store
+
+airflow_docker/
+airflow_venv/
+
+*.log
