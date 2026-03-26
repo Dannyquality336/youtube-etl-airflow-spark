@@ -1,37 +1,96 @@
-# YouTube ETL Pipeline (Airflow + Spark + Docker)
+# YouTube ETL Pipeline using Airflow + Spark + Docker
 
-Production-style ETL pipeline built using:
+Production-style ETL pipeline built with Apache Airflow, PySpark, Docker, and YouTube API.
 
-- Python
-- PySpark
-- Apache Airflow
-- Docker
-- YouTube API
-- Bronze / Silver / Gold architecture
+This project demonstrates a real-world Data Engineering workflow using Bronze / Silver / Gold architecture.
+
+---
 
 ## Architecture
 
-YouTube API → Extract → Bronze JSON → Spark Silver → Spark Gold → Airflow DAG
+YouTube API  
+↓  
+Extract (Python)  
+↓  
+Bronze JSON  
+↓  
+Spark Silver  
+↓  
+Spark Gold  
+↓  
+Airflow DAG  
+↓  
+Dockerized execution  
+
+---
 
 ## Tech Stack
 
 - Python
 - PySpark
-- Airflow
+- Apache Airflow
 - Docker
-- Requests
-- JSON
-- Parquet
+- Requests API
+- JSON / Parquet
+- Postgres
+- Redis
+
+---
 
 ## Features
 
-- API ingestion
-- Spark transformation
+- API ingestion pipeline
+- Spark transformations
 - Airflow scheduling
-- Dockerized environment
+- Docker environment
+- Bronze / Silver / Gold layers
 - Production folder structure
+
+---
+
+## Project Structure
+
+```
+etl_prod_pipeline/
+│
+├── dags/
+├── jobs/
+│   ├── extract/
+│   ├── silver/
+│   ├── gold/
+│
+├── config/
+├── data/
+├── requirements.txt
+├── docker-compose.yaml
+└── README.md
+```
+
+---
 
 ## Run
 
-```bash
+Start docker
+
+```
 docker compose up
+```
+
+Open Airflow UI
+
+```
+http://localhost:8080
+```
+
+Run DAG
+
+```
+youtube_etl_pipeline
+```
+
+---
+
+## Author
+
+Dheeraj Reddy  
+Data Engineering Portfolio Project
